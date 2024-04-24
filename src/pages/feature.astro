@@ -91,8 +91,9 @@ p {
 
     <div class="pink-banner">
       <h3>
-        This is a video about our webshop and our mission to support both people
-        and the environment.
+        Vi er taknemmelige for vores talentfulde team, der gør det muligt for os
+        at skabe smukke, bæredygtige produkter og samtidig have en positiv
+        indflydelse på samfundet.
       </h3>
     </div>
   </main>
@@ -102,10 +103,21 @@ p {
   </footer>
 
   <style>
+    @font-face {
+      font-family: "nunito";
+
+      src: url(../../public/font/nunito-extrabold-webfont.woff);
+    }
     main {
       perspective: 1px;
       height: 100vh;
       overflow-y: scroll;
+      /* font-family: "nunito"; */
+    }
+    h2,
+    h3,
+    p {
+      font-family: "nunito" "sans-serif";
     }
 
     main > * {
@@ -122,14 +134,15 @@ p {
     .gif-container {
       width: 100%;
       height: auto;
+      margin: 0;
       /* padding: 2rem 0; */
     }
 
     .pink-box {
       width: 100%;
-      margin: 0 auto;
+      margin: 0;
       padding: 4rem;
-      background-color: #ffc0cb;
+      background-color: #f1e0dd;
       text-align: center;
       font-family:;
     }
@@ -144,7 +157,7 @@ p {
       width: 100%;
       margin: 0 auto;
       padding: 4rem;
-      background-color: #ffc0cb;
+      background-color: #f1e0dd;
       text-align: center;
     }
 
